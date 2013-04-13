@@ -34,10 +34,10 @@ extern Node *nThToLast(Node *list, int n);
 extern _Bool listType(Node *list);
 
 
-// const extern int countOccurances(Node *list, TYPE element);
+// extern int countOccurances(Node *list, TYPE element);
 
 
-// const extern void copyLinkedList(Node *list);
+// extern void copyLinkedList(Node *list);
 
 
 // extern void sortLinkedList(Node *list);
