@@ -21,7 +21,7 @@
 
 int main(int argc, char *argv[])
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+    char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 
     char *morse_table[] = {
                                ".-", "-...", "-.-.",
@@ -37,11 +37,11 @@ int main(int argc, char *argv[])
 
     short input_size, i, j;
 
-	input_size = strlen(argv[1]);
+    input_size = strlen(argv[1]);
 
-	char *input = strdup(argv[1]);
+    char *input = strdup(argv[1]);
 
-	for (i = 0; i < ALPHA_SIZE; ++i)
+    for (i = 0; i < ALPHA_SIZE; ++i)
     {
         for (j = 0; j < input_size; ++j)
         {
@@ -54,6 +54,6 @@ int main(int argc, char *argv[])
 
     free(input);
 
-	return 0;
+    return 0;
 }
 
